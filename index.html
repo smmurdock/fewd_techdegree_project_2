@@ -7,80 +7,103 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
-<body>
-    <!-- header -->
-    <header>
-        <nav class="main-nav">
-            <ul>
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>Conact</li>
-            </ul>
-        </nav>
-        <h1></h1>
-    </header>
 
+ <!-- header -->
+ <header id="home" data-offset="100px">
+    <!-- navbar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- /navbar -->
+    <h1></h1>
+</header>
+<!-- /header -->
+
+<body>
     <!-- main -->
     <main>
-        <h2>Portfolio</h2>
-        <!-- portfolio div 1 -->
-        <div class="primary-content">
+        <!-- portfolio -->
+        <h2 id="portfolio">Portfolio</h2>
+        <div id="portfolio" class="container primary-content">
+            <!-- portfolio div 1 -->
             <div class="portfolio">
-                <img src="" alt="">
+                <img src="images/portfolio-1.png" alt="image of marketing page">
                 <h2></h2>
                 <p></p>
             </div>
 
             <!-- portfolio div 2 -->
             <div class="portfolio">
-                <img src="" alt="">
+                <img src="images/portfolio-2.png" alt="image of search page">
                 <h2></h2>
                 <p></p>
             </div>
 
             <!-- portfolio div 3 -->
             <div class="portfolio">
-                <img src="" alt="">
+                <img src="images/portfolio-3.png" alt="image of travel app">
                 <h2></h2>
                 <p></p>
             </div>
 
             <!-- portfolio div 4 -->
             <div class="portfolio">
-                <img src="" alt="">
+                <img src="images/portfolio-4.png" alt="image of 'map of favorite spots'">
                 <h2></h2>
                 <p></p>
             </div>
 
             <!-- portfolio div 5 -->
             <div class="portfolio">
-                <img src="" alt="">
+                <img src="images/portfolio-5.png" alt="image of photo gallery">
                 <h2></h2>
                 <p></p>
             </div>
 
             <!-- portfolio div 6 -->
             <div class="portfolio">
-                <img src="" alt="">
+                <img src="images/portfolio-6.png" alt="image of calculator">
                 <h2></h2>
                 <p></p>
             </div>
         </div>
+        <!-- /portfolio -->
         
-        <div class="secondary-content">
-                <h2>Skills</h2>
-            </div>
-        
-        <div class="secondary-content">
-            <h2>Contact</h2>
+        <!-- skills -->
+        <div id="skills" class="container secondary-content">
+            <h2>Skills</h2>
         </div>
+        <!-- /skills -->
+        
+        <!-- contact -->
+        <div id="contact" class="container secondary-content">
+            <h2>Contact</h2>
+            <p>[Description goes here]</p>
+            <p>[Phone # goes here]</p>
+            <p>[Email goes here]</p>
+        </div>
+        <!-- /contact -->
     </main>
 
-    <!-- footer -->
-    <footer>
-
-    </footer>
-
+    
     
 </body>
+<!-- /body -->
+
+<!-- footer -->
+<footer>
+    <div>
+        [name]
+        [home]
+        [portfolio]
+        [skills]
+        [contact]
+    </div>
+</footer>
+<!-- /footer -->
 </html>
