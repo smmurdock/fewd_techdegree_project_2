@@ -1,6 +1,45 @@
+/* ========================================
+    Base Element Styles
+======================================== */
+
+body {
+
+}
+
+a {
+
+}
 
 
-/* Media Queries --------------------------- */
+
+/* ========================================
+    Base Layout Styles
+======================================== */
+
+/* Layout Containers ------------------- */
+.wrapper {
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: red;
+    width: 100%;
+}
+
+.main-footer {
+    background-color: red;
+    width: 100%;
+}
+
+
+/* Page Elements ----------------------- */
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Media Queries ----------------------- */
 /* 320px, 768px, 1024px */
 
 
